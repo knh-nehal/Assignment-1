@@ -40,8 +40,9 @@
 .common-heading {
   color: #070211;
   font-family: Inter;
-  font-size: 40px;
+  font-size: 45px;
   font-weight: 700;
+  text-transform: capitalize;
 }
 
 .common-para {
@@ -50,6 +51,10 @@
   font-size: 20px;
   font-weight: 400;
   line-height: 32px;
+}
+
+.red {
+  color: #f00;
 }
 
 /* heading section */
@@ -175,10 +180,6 @@
   text-transform: capitalize;
 }
 
-.join-place-container .red {
-  color: #f00;
-}
-
 .join-place-container button {
   margin-top: 48px;
 }
@@ -246,4 +247,94 @@
 
 .best-offer-container .best-offer-right p {
   margin-bottom: 30px;
+}
+
+/* sales section */
+
+/* portfolio section */
+
+.portfolio-container {
+  margin-top: 120px;
+}
+
+.portfolio-container h4 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 18px;
+}
+
+.portfolio-container h2 {
+  margin-bottom: 24px;
+}
+
+.portfolio-container p {
+  width: 66%;
+}
+
+.portfolio-container .img-container {
+  margin-top: 45px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.portfolio-container .img-container img {
+  width: 32%;
+}
+
+/* .portfolio-container .img-container img:hover {
+  transition: 1.5s;
+  background-color: #946151;
+} */
+
+/* subscribe section */
+
+.subscribe-container {
+  margin-top: 120px;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  height: 600px;
+}
+
+.subscribe-container-description {
+  padding: 80px 0px;
+}
+
+.subscribe-container .subscribe-container-description img {
+  margin-bottom: 48px;
+  width: 150px;
+  height: 150px;
+}
+
+.subscribe-container .subscribe-container-description p {
+  width: 78%;
+  margin-top: 22px;
+  margin-bottom: 48px;
+}
+
+.subscribe-container .subscribe-container-description .input-container {
+  width: 50%;
+  display: flex;
+}
+
+.subscribe-container .subscribe-container-description .input-container input {
+  width: 100%;
+  border: none;
+  border-radius: 50px 0 0 50px;
+  background: #fff;
+  padding: 24px 30px;
+  color: rgba(7, 2, 17, 0.3);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.subscribe-container .subscribe-container-description .input-container button {
+  border-radius: 0px 50px 50px 0px;
+  background: #f00;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
 }
