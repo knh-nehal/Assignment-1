@@ -262,6 +262,59 @@ a {
 }
 
 /* sales section */
+.sales-container .common-heading-middle h4 {
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 18px;
+}
+
+.sales-container .common-heading-middle h1 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  margin-bottom: 28px;
+}
+
+.sales-container .common-heading-middle p {
+  width: 80%;
+  line-height: 32px;
+  margin-bottom: 64px;
+}
+
+.sales-pic-container {
+  height: 700px;
+  background-image: url("../images/Rectangle 2.png");
+  background-position: bottom;
+  background-size: 100% 30%;
+  background-repeat: no-repeat;
+}
+
+.sales-container .pic-container {
+  position: relative;
+  padding: 28px 0;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+}
+
+.sales-container .pic-container img {
+  width: 400px;
+}
+
+.sales-container .pic-container .discount {
+  position: absolute;
+  left: 55%;
+}
+
+.sales-container .pic-container .gift-box {
+  width: 550px;
+  position: absolute;
+  top: 45%;
+  left: 5%;
+}
 
 /* portfolio section */
 
