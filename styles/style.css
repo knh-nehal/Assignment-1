@@ -61,7 +61,7 @@ hr {
   width: 82%;
   max-width: 1320px;
   margin: 50px auto;
-  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 a {
@@ -423,17 +423,22 @@ a {
 .footer-container {
   padding-top: 120px;
   display: flex;
-  justify-content: space-between;
 }
 
-.footer-container .footer-left {
-  width: 28%;
+.footer-container .footer-left,
+.footer-container .footer-right-container {
+  width: 50%;
+}
+
+.footer-container .footer-left p {
+  width: 60%;
 }
 
 .footer-container .footer-right {
   display: flex;
   align-items: center;
-  gap: 8px;
+  margin-left: 35%;
+  gap: 10px;
 }
 
 .footer-container .footer-right img {
